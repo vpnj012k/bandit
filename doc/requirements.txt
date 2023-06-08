@@ -3,3 +3,7 @@
 # process, which may cause wedges in the gate later.
 sphinx!=1.6.6,!=1.6.7,>=1.6.2 # BSD
 sphinx-rtd-theme>=0.3.0
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
